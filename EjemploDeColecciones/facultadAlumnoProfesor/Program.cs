@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 
@@ -33,9 +34,27 @@ namespace facultadAlumnoProfesor
             {
                 Console.WriteLine(item.ToString());
             }
+            //no genericas --- que no tienen genero , proceso inbox
+            ArrayList vector = new ArrayList();
+            vector.Add(3);
+            vector.Add(objetoAlumo);
+            vector.Add("alguna palabra");
+            int dato=  vector.Capacity;
+            int dato2 = vector.Count;
 
+            Stack pilaDeDatos = new Stack();
+
+            pilaDeDatos.Push(1);
+            pilaDeDatos.Push(1);
+
+
+              
 
 
         }
+
+     
+
     }
+    
 }

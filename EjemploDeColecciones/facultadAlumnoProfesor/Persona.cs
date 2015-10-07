@@ -44,7 +44,11 @@ namespace facultadAlumnoProfesor
         {
             return " nombre:"+ this.Nombre + " edad:"+this._edad;
         }
-       
+        public void MostrarPersona()
+        {
+            Console.WriteLine( this.ToString());
+           
+        }
       
     }
 }
